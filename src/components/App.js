@@ -3,7 +3,7 @@ import reducer,{initialState} from '../state/reducer';
 import Context from './context';
 import PublishMessage from './PublishMessage';
 import MessageBoard from './MessageBoard';
-
+import '../pubsub';
 
 function App() {
   const [state,dispatch]=useReducer(reducer,initialState)
