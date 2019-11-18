@@ -1,6 +1,6 @@
 import React, {useReducer} from 'react';
 import reducer,{initialState} from '../state/reducer';
-import Context from '../context';
+import Context from './context';
 import PublishMessage from './PublishMessage';
 import MessageBoard from './MessageBoard';
 
