@@ -4,18 +4,22 @@ import pubnubConfig from './pubnub.config.json'
 const pubnub = new PubNub (pubnubConfig);
 
 export const MESSAGE_CHANNEL = 'MESSAGE_CHANNEL';
+function PubSub(){
+    const pubnub = new PubNub (pubnubConfig);
 
-pubnub.subscribe({channels:[MESSAGE_CHANNEL]});
-
-pubnub.addListener({
-    message:messageObject=>{
-        console.log('messageObject',messageObject);
+    pubnub.subscribe({channels:[MESSAGE_CHANNEL]});
+    
+    this.addListener = listenerConfig =>{
+        pubnub.addListener(listenerConfig);
     }
-})
 
-setTimeout(()=>{
-    pubnub.publish({
-        message:'foo',
-        channel:MESSAGE_CHANNEL
-    });
-},1000)
+    this.publish = message =>{
+        console.log('publish message', message)
+        pubnub.publish({
+            message,
+            channel: MESSAGE_CHANNEL
+        })
+    }
+}
+
+export default PubSub;
