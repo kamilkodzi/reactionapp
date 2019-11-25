@@ -1,68 +1,13 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Excellent work on completing this section - and this course, for that matter! With this project done, you’ve now completed the React hooks journey of this course. Let’s do a quick review of the main lessons from this section:
 
-## Available Scripts
+UseReducer - this hooks allows you to apply the reducer pattern to your application and components. With a reducer, you call pull out your state data into one centralized object for the entire app. Based on dispatching action objects to the reducer, it will collect data and adapt the application state over time.
 
-In the project directory, you can run:
+UseContext - with this hook, you can apply a React context object to a tree of React components. The nested components in that tree will have the ability to reference shared objects and data contained in that context object.
 
-### `npm start`
+Pub/Sub - the publish/subscribe software pattern allows you to set up a network based on channels. Publishers send messages across those channels. And subscribers pick up those messages.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Section Code: https://github.com/15Dkatz/react-hooks-course/tree/d91e30c99a6c5f1d37cbc1f8bd1c80030e654eb4
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Overall, I hope you’ve enjoyed this journey through React hooks. It’s the most exciting update to React since its inception. It’s also still so early in its inception - so many of the best practices and patterns are still being formalized. So in a sense, by taking this course, you’re become a pioneer of sorts in the React hooks domain!
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Ok, next, there are some final remarks to conclude and bonus content in the next section. So be sure to check those to officially complete the course!
