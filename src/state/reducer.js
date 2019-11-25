@@ -16,7 +16,7 @@ if (REACTION_TYPES.includes(action.type)){
     const {messageId}=action.item;
     const messageReactions=state.reactionMap[messageId];
 
-    if(messageId){
+    if(messageReactions){
         reactionMap={
             ...state.reactionMap,
             [messageId]:[...messageReactions, action.item]
